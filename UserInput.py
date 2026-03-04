@@ -1,0 +1,5 @@
+name = input("My name is : ")
+age = int(input("My age is : "))
+print(name)
+print(age)
+print("Alhamdulillah I got CGPA-4 in my 2nd semester.")
