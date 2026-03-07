@@ -17,14 +17,15 @@ print( profile["Name"]  ) # print--> Mohammad Arib Fagun
 
 profile["CGPA"] = 3.981
 
-print( profile["CGPA"])
+print( profile["CGPA"]) # CGPA-4 over write to 3.981
 
 
 # dictionary inside a distionary (nested dictionary) :
 
+# This is outside dictionary
 profile2 = {
     "Department" : "CSE",
-    # dictionary
+    # Inside dictionary
     "Subject" :{
         "Chem" : 90,
         "Math" : 85,
