@@ -36,3 +36,9 @@ print()
 person = {'name': 'Alice', 'age': 25}
 person.update( age=28 ,  city='London' )
 print(person) # {'name': 'Alice', 'age': 28, 'city': 'London'}
+
+print()
+# Methode :4 -->
+person = {'name': 'Alice', 'age': 25}
+person.update( { "Town" : "Chittagong" , "CGPA" : 4} )
+print(person) # {'name': 'Alice', 'age': 25, 'Town': 'Chittagong', 'CGPA': 4}
