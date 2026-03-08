@@ -11,7 +11,7 @@ print( sequence[4]  )
 
 # type :2 ->
 
-sequence = range(10)
+sequence = range(10) 
 
 for i  in sequence:
     print(i) # 0 1 2 3 4 5 6 7 8 9
@@ -19,6 +19,10 @@ for i  in sequence:
 
 
 # type:3 ->
+for i in range(5):   # end :5
+    print(i)
+
+# type:4 ->
 
 for i in range(1,10):   # star:1 , end:9
     print(i) # 1 2 3 4 5 6 7 8 9
@@ -26,7 +30,7 @@ for i in range(1,10):   # star:1 , end:9
 
 
 
-# type:4 ->
+# type:5 ->
 
 for i in range(1,5,2):   # start: 1 , end: 9 , increment: 2
     print(i) # 1  3 
