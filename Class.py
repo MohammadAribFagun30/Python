@@ -10,3 +10,6 @@ class Myclass:
 
 object = Myclass()
 print(object.name) # print--> Arib
+
+
+
