@@ -5,11 +5,10 @@ class Myclass:
 
 
 
-
 # Creating Object
 
 object = Myclass()
 print(object.name) # print--> Arib
 
-
+print(Myclass.name)# print--> Arib
 
