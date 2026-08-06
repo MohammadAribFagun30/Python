@@ -6,19 +6,22 @@ print(list)
 list.sort() 
 print(list)
 
-list.sort(reverse = True) # sort in decending order
+
 list.reverse()  # sort in decending order
 print(list)
 
-list.insert(2,10)
+#          index  value
+list.insert(  2  ,   10)   # will insert 10 in index 2
 print(list)
 
 
 list2 = [1,2,2,3,4]
+
 list2.remove(2) # will remove the 1st 2 in the list-> [1,2,3,4]
 print(list2)
+
 #       index
-list.pop( 3 ) # remove the value of index 3
-print(list)
+list2.pop( 3 ) # remove the value of index 3
+print(list2)
 
 
