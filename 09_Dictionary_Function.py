@@ -3,11 +3,16 @@ profile = {
     "Name" : "Mohammad Arib Fagun",
     "CGPA" : 4,
     "Semester" : "2nd",
-    "Subject" : ["DLD","Chemistry", "Statistics","GEED"], #tuples
-    "Topper" : ("Labib", "Fahmid","Towhid","Albab") # list
+    "Subject" : ["DLD","Chemistry", "Statistics","GEED"], # list
+    "Topper" : ("Labib", "Fahmid","Towhid","Albab")       #tuples
 }
 
+# spcific element : 
+print(profile["Name"])       # if "Name" does not exist , return "Error"
+print( profile.get("Name") ) # if "Name" does not exist , return "NONE"
+
 print( profile.keys() ) # returns keys
+
 print( len( profile.keys() ) ) # return keys length
 
 print( profile.values()  ) # return values

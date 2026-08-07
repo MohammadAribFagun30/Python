@@ -3,8 +3,8 @@ profile = {
     "Name" : "Mohammad Arib Fagun",
     "CGPA" : 4,
     "Semester" : "2nd",
-    "Subject" : ["DLD","Chemistry", "Statistics","GEED"], #tuple
-    "Topper" : ("Labib", "Fahmid","Towhid","Albab") # list
+    "Subject" : ["DLD","Chemistry", "Statistics","GEED"], # list
+    "Topper" : ("Labib", "Fahmid","Towhid","Albab")       #tuples
 }
 
 print( profile )
@@ -24,7 +24,9 @@ print( profile["CGPA"]) # CGPA-4 over write to 3.981
 
 # This is outside dictionary
 profile2 = {
+
     "Department" : "CSE",
+
     # Inside dictionary
     "Subject" :{
         "Chem" : 90,

@@ -9,6 +9,7 @@ null_set = set()
 set1 = {1,2,3,4,5}
 print(set1)
 
+
 # length of set
 print( len(set1) ) # length--> 5
 

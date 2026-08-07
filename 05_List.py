@@ -5,6 +5,11 @@
 list = [1,2,3,4,5]
 print(list)
 
+
+# spcific element : 
+print(list[2])
+
+
 # List of different data type
 List2 = ["Arib",30,"Alif",69]
 print(List2)

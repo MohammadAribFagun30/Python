@@ -1,7 +1,9 @@
 str = "Mohammad"
 print(str[0 : 5]) #ekne 0 index theke (5-1) index prjanto print hbe
 
+
 print(str[:5]) # same as [0:5]
+
 
 #Negative index
 # M  o  h  a  m  m  a d

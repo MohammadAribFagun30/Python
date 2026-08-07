@@ -7,11 +7,14 @@ print(tuple)
 # Can not do like list
 # tuple[0] = 5
 
+
 print(tuple[0])
 print(tuple[1])
 
+
 # Tuple Slicing
 print( tuple[1:5] )
+
 
 
 print( tuple.index(3) )
