@@ -1,8 +1,8 @@
 count = 1
 
 while count<=5 :
- print("Hello ! ")
- count +=1
+     print("Hello ! ")
+     count +=1
 
    # Hello ! 
    # Hello ! 
@@ -10,7 +10,9 @@ while count<=5 :
    # Hello ! 
    # Hello !
 
+
    # problem-1 :
+
    # printiing numbers :
 num = [1,2,3,4,5]
 
@@ -21,12 +23,9 @@ while index < len(num) :
     index+=1
 
     # problem-2 :
+
     # search a number :
-    nums = [1,2,3,4,5,6]
-
-    x = 4
-    i = 0
-
+   
 nums = [1,2,3,4,5,6]
 
 x = 4

@@ -42,3 +42,11 @@ print( profile2 )
 
 print( profile2 ["Subject"] ["DLD"]  ) # print--> 92
 
+
+
+# User Input
+
+user = input("Tell the key :")
+
+print(profile[user]) # returns the value
+
