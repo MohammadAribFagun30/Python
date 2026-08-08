@@ -10,4 +10,3 @@ for value in num :
 name = ["Alif" , "Fagun" , "Towhid"]
 for i in name :
         print(i)
-        

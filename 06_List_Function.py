@@ -26,9 +26,8 @@ print(list2)
 
 #       index
 list2.pop( 3 ) # remove the value of index 3
+               # If we donot give any index, it will pop last element
 print(list2)
-
-
 
 
 

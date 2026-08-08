@@ -12,7 +12,6 @@ print("Alhamdulillah I got CGPA-4 in my 2nd semester.")
 
 # New way to print string
 
-
 name = input("Enter a name : ")
 
 print(f"Good Morning {name}")

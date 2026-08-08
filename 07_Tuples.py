@@ -16,8 +16,8 @@ print(tuple[1])
 print( tuple[1:5] )
 
 
-
-print( tuple.index(3) )
+                # value
+print( tuple.index(3) )  # print index
 
 
 tuple2 = (1,2,3,4,5,5)

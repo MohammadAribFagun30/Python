@@ -46,6 +46,28 @@ print( profile2 ["Subject"] ["DLD"]  ) # print--> 92
 
 # User Input
 
+li = {}
+
+for i in range(5):
+    x = input("Enter the key: ")
+    y = input("Enter value: ")
+
+    # Convert value to int or float if possible
+    try:
+        y = int(y)
+    except ValueError:
+        try:
+            y = float(y)
+        except ValueError:
+            pass
+
+    li[x] = y
+
+print(li)
+
+
+
+
 user = input("Tell the key :")
 
 print(profile[user]) # returns the value
