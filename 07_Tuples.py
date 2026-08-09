@@ -4,6 +4,9 @@
 tuple = (1,2,3,4,5)
 print(tuple)
 
+
+
+
 # Can not do like list
 # tuple[0] = 5
 
@@ -11,6 +14,8 @@ print(tuple)
 print(tuple[0])
 print(tuple[1])
 
+# Sum 
+print(sum(tuple))
 
 # Tuple Slicing
 print( tuple[1:5] )

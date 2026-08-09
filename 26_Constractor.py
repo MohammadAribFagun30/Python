@@ -1,11 +1,12 @@
 class Myclass:
-# without perameter-1 :
-    def __init__(self):   # This is like [ def student(self) ]
+
+# without perameter-1 :   # Constructor is called "Dunder method"
+    def __init__(self):   # This is like [ def Myclass(self) ]
         pass
 
 
 # without perameter-2 :
-    def __init__(self):   # This is like [ def student(self) ]
+    def __init__(self):   # This is like [ def Myclass(self) ]
         print("Constractor is calling")
 
 
